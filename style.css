@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    background: rgb(0,41,66);
+    background: linear-gradient(180deg, rgba(0,41,66,1) 50%, rgba(170,175,0,1) 100%);
+    background-size: cover;
+    color: white;
+}
+h1, h2 {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+#countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px;
+    border: 3px solid white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#timer-1, #timer-2, #timer-3, #timer-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #333333;
+    padding: 5px 100px;
+    border-radius: 40px;
+    border: 5px solid rgba(255, 255, 255, 0.856);
+}
+
+#timer-1 #days, #timer-2 #hours, #timer-3 #minutes, #timer-4 #seconds {
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+#timer-1 h3, #timer-2 h3, #timer-3 h3, #timer-4 h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 600px) {
+    #countdown {
+        flex-direction: column;
+    }
+    
+    #timer-1, #timer-2, #timer-3, #timer-4 {
+        width: 100%;
+    }
+}
