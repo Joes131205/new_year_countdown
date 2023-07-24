@@ -19,7 +19,7 @@ setInterval(time = () => {
     if (timeLeft < 0) {
         clearInterval(time)
         document.body.style.background = 'url("fireworks.webp")'
-        messageEl.textContent = "Happy 2023!!"
+        messageEl.textContent = "Happy New Year (2024)!!"
         daysEl.textContent = "🥳"
         hoursEl.textContent = "🥂"
         minutesEl.textContent = "🎊"
