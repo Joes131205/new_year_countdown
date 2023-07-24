@@ -5,7 +5,7 @@ const secondsEl = document.getElementById("seconds")
 const messageEl = document.getElementById("message")
 
 setInterval(time = () => {
-    let endDate = new Date("January 1, 2023 00:00:00")
+    let endDate = new Date("January 1, 2024 00:00:00")
     let nowDate = new Date()
     let timeLeft = endDate.getTime() - nowDate.getTime()
     let days = Math.floor(timeLeft / (1000 * 60 * 60 * 24))
